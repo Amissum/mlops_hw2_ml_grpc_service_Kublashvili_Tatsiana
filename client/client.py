@@ -1,5 +1,5 @@
 import grpc
-from mlops_hw2_ml_grpc_service_Kublashvili_Tatsiana import model_pb2, model_pb2_grpc
+import model_pb2, model_pb2_grpc
 
 def make_stub(addr: str = "localhost:50051"):
     channel = grpc.insecure_channel(addr)
@@ -21,5 +21,5 @@ def predict(stub):
 
 if __name__ == "__main__":
     stub = make_stub()
-    health(stub)
+    # health(stub)
     predict(stub)

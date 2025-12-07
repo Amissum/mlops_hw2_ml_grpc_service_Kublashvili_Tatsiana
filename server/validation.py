@@ -1,5 +1,5 @@
 from typing import Iterable
-from mlops_hw2_ml_grpc_service_Kublashvili_Tatsiana import model_pb2
+import model_pb2
 
 class ValidationError(Exception):
     pass

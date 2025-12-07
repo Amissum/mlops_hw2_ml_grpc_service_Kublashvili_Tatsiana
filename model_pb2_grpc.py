@@ -3,7 +3,7 @@
 import grpc
 import warnings
 
-from mlops_hw2_ml_grpc_service_Kublashvili_Tatsiana import model_pb2 as model__pb2
+import model_pb2 as model__pb2
 
 GRPC_GENERATED_VERSION = '1.66.1'
 GRPC_VERSION = grpc.__version__
